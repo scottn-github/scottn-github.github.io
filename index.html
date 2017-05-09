@@ -87,6 +87,17 @@
     </div>
     <p>You may wish to give a small donation to help support my current and future app projects.</p>
 	<p>Donate button coming soon.</p>
+	  <form action="/charge" method="POST">
+  		<script
+    			src="https://checkout.stripe.com/checkout.js"
+    			class="stripe-button"
+    			data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+    			data-image="/square-image.png"
+    			data-name="Donate to Scott's Apps"
+    			data-description="Donate 2 Dollars ($2.00)"
+    			data-amount="200">
+  		</script>
+	</form>
   </div>
 
   <div data-role="footer">
